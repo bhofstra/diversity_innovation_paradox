@@ -8,8 +8,8 @@ Code
 ----
 
 With the provided code provided the novelty, impactful novelty, and
-distal novelty metrics can be extracted from the raw ProQuest
-dissertation abstract data.
+distal novelty metrics can be constructed from the ProQuest dissertation
+abstract data.
 
 -   ***stms\_estimate\_at\_K.R***: Runs Structural Topic Models at
     specified range of K (50-1000 in the paper).
@@ -43,3 +43,9 @@ For inferring gender and race associated with names:
     Data](https://www.ssa.gov/oact/babynames/limits.html)
 -   [Florida Voter Registration
     Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UBIG3F)
+-   [Hofstra et al. 2017](): we use the method described in this paper
+    but with the US Census and SSN to infer gender and race.
+-   [ethnicolr](https://github.com/appeler/ethnicolr) and [Sood and
+    Laohaprapanon](https://arxiv.org/abs/1805.02109): we use this method
+    to further help infer race with the Florida Voter registration data.
+-   [Genderize.io]() we use this method to further help infer gender.
