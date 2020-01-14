@@ -9,7 +9,7 @@ output: md_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## The Diversity-Innovation Paradox in Science
+# The Diversity-Innovation Paradox in Science
 
 This repository contains code and data associated with "The Diversity-Innovation Paradox in Science." arXiv  preprint and PDF can be found [here](https://arxiv.org/abs/1909.02063).
 
@@ -18,7 +18,7 @@ This repository contains code and data associated with "The Diversity-Innovation
 By analyzing data from nearly all US PhD-recipients and their dissertations across three decades, this paper finds demographically underrepresented students innovate at higher rates than majority students, but their novel contributions are discounted and less likely to earn them academic positions. The discounting of minorities’ innovations may partly explain their underrepresentation in influential positions of academia.
 
 
-![picture](fig_1.png){width=60%}
+![picture](fig_1.png)
 ***Figure 1***. The introduction of innovations and their subsequent uptake. 
 
 ## Code
@@ -32,7 +32,7 @@ With the provided code the novelty, impactful novelty, and distal novelty metric
 
 ## Data
 
-For the concepts extracted for the K = 500 Structural Topic Model where we equally balance frequency and exclusivity (which we do in **concepts_k500_50.R**), please see **k500_wordcouds.zip** for visualizations or **frexconcepts_k500_50.rda** for the data (second element in the list).
+For the concepts extracted for the K = 500 Structural Topic Model where we equally balance frequency and exclusivity (which we extract in **concepts_k500_50.R**), please see **k500_wordcouds_[n]_[to_n].zip** for visualizations or **frexconcepts_k500_50.rda** for the data (second element in the list).
 
 For raw data of ProQuest or the Web of Science:
 

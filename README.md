@@ -1,5 +1,5 @@
 The Diversity-Innovation Paradox in Science
--------------------------------------------
+===========================================
 
 This repository contains code and data associated with “The
 Diversity-Innovation Paradox in Science.” arXiv preprint and PDF can be
@@ -16,8 +16,8 @@ to earn them academic positions. The discounting of minorities’
 innovations may partly explain their underrepresentation in influential
 positions of academia.
 
-<img src="fig_1.png" alt="picture" style="width:60.0%" /> ***Figure
-1***. The introduction of innovations and their subsequent uptake.
+![picture](fig_1.png) ***Figure 1***. The introduction of innovations
+and their subsequent uptake.
 
 Code
 ----
@@ -39,10 +39,11 @@ Data
 ----
 
 For the concepts extracted for the K = 500 Structural Topic Model where
-we equally balance frequency and exclusivity (which we do in
-**concepts\_k500\_50.R**), please see **k500\_wordcouds.zip** for
-visualizations or **frexconcepts\_k500\_50.rda** for the data (second
-element in the list).
+we equally balance frequency and exclusivity (which we extract in
+**concepts\_k500\_50.R**), please see
+\*\*k500\_wordcouds\_\[n\]\_\[to\_n\].zip\*\* for visualizations or
+**frexconcepts\_k500\_50.rda** for the data (second element in the
+list).
 
 For raw data of ProQuest or the Web of Science:
 
