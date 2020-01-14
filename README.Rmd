@@ -12,15 +12,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This repository contains code and data associated with "The Diversity-Innovation Paradox in Science." arXiv  preprint and PDF can be found [here](https://arxiv.org/abs/1909.02063).
 
-![picture](output/fig_1.pdf)
+![picture](fig_1.pdf)
 
 ## Code
 
-With the provided code provided the novelty, impactful novelty, and distal novelty metrics can be extracted from the raw ProQuest dissertation abstract data.
+With the provided code provided the novelty, impactful novelty, and distal novelty metrics can be constructed from the ProQuest dissertation abstract data.
 
 - ***stms_estimate_at_K.R***: Runs Structural Topic Models at specified range of K (50-1000 in the paper).
 - ***concepts_k500_50.R***: Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
-- ***xxx***: 
+- ***novelty and impactful novelty***: 
+- ***embeddings***:
 
 ## Data
 
@@ -36,5 +37,7 @@ For inferring gender and race associated with names:
 - [US Census Data 2000](https://census.gov/topics/population/genealogy/data/2000_surnames.html)
 - [US Census Data 2010](https://census.gov/topics/population/genealogy/data/2010_surnames.html)
 - [Social Security Administration Data](https://www.ssa.gov/oact/babynames/limits.html)
+  - [_Hofstra et al. 2017_](https://journals.sagepub.com/doi/full/10.1177/0003122417705656): Method described here helps infer gender and race (with US Census and SSN).
 - [Florida Voter Registration Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UBIG3F)
-
+  - [_ethnicolr_](https://github.com/appeler/ethnicolr) by [_Sood and Laohaprapanon_](https://arxiv.org/abs/1805.02109): Method used to further help infer race with the Florida Voter registration data.
+- [Genderize.io](https://genderize.io/) Method used to further help infer gender.

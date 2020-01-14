@@ -2,7 +2,7 @@ This repository contains code and data associated with “The
 Diversity-Innovation Paradox in Science.” arXiv preprint and PDF can be
 found [here](https://arxiv.org/abs/1909.02063).
 
-![picture](output/fig_1.pdf)
+![picture](fig_1.pdf)
 
 Code
 ----
@@ -17,7 +17,8 @@ abstract data.
     topic model output, the number of words, topics, and FREX weighing
     can be adjusted in the code to get at the differend K/FREX
     scenarios.
--   ***xxx***:
+-   ***novelty and impactful novelty***:
+-   ***embeddings***:
 
 Data
 ----
@@ -43,13 +44,13 @@ For inferring gender and race associated with names:
     Data](https://www.ssa.gov/oact/babynames/limits.html)
     -   [*Hofstra et
         al. 2017*](https://journals.sagepub.com/doi/full/10.1177/0003122417705656):
-        method described here to help gender and race (with US Census
-        and SSN).
+        Method described here helps infer gender and race (with US
+        Census and SSN).
 -   [Florida Voter Registration
     Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UBIG3F)
     -   [*ethnicolr*](https://github.com/appeler/ethnicolr) by [*Sood
-        and Laohaprapanon*](https://arxiv.org/abs/1805.02109): method to
-        further help infer race with the Florida Voter registration
-        data.
--   [Genderize.io](https://genderize.io/) method to further help infer
-    gender.
+        and Laohaprapanon*](https://arxiv.org/abs/1805.02109): Method
+        used to further help infer race with the Florida Voter
+        registration data.
+-   [Genderize.io](https://genderize.io/) Method used to further help
+    infer gender.
