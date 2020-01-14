@@ -2,7 +2,7 @@ This repository contains code and data associated with “The
 Diversity-Innovation Paradox in Science.” arXiv preprint and PDF can be
 found [here](https://arxiv.org/abs/1909.02063).
 
-![picture](fig_1.pdf)
+![picture](fig_1.png)
 
 Code
 ----
