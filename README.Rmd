@@ -32,7 +32,7 @@ With the provided code the novelty, impactful novelty, and distal novelty metric
 
 ## Data
 
-For the concepts extracted for the K = 500 Structural Topic Model where we equally balance frequency and exclusivity (which we extract in **concepts_k500_50.R**), please see **k500_wordcouds_[n]_[to_n].zip** for visualizations or **frexconcepts_k500_50.rda** for the data (second element in the list).
+For the concepts extracted for the K = 500 Structural Topic Model where we equally balance frequency and exclusivity (which we extract in **concepts_k500_50.R**), please see **k500_wordcouds_n_to_n.zip** for visualizations or **frexconcepts_k500_50.rda** for the data (second element in the list).
 
 For raw data of ProQuest or the Web of Science:
 

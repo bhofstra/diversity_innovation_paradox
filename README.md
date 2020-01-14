@@ -40,10 +40,9 @@ Data
 
 For the concepts extracted for the K = 500 Structural Topic Model where
 we equally balance frequency and exclusivity (which we extract in
-**concepts\_k500\_50.R**), please see
-\*\*k500\_wordcouds\_\[n\]\_\[to\_n\].zip\*\* for visualizations or
-**frexconcepts\_k500\_50.rda** for the data (second element in the
-list).
+**concepts\_k500\_50.R**), please see **k500\_wordcouds\_n\_to\_n.zip**
+for visualizations or **frexconcepts\_k500\_50.rda** for the data
+(second element in the list).
 
 For raw data of ProQuest or the Web of Science:
 
