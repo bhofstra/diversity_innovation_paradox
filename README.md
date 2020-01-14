@@ -1,12 +1,32 @@
-Readme
-======
-
 This repository contains code and data associated with “The
 Diversity-Innovation Paradox in Science.” arXiv preprint and PDF can be
 found [here](https://arxiv.org/abs/1909.02063).
 
+![picture](output/fig_1.pdf)
+
 Code
 ----
+
+With the provided code provided the novelty, impactful novelty, and
+distal novelty metrics can be extracted from the raw ProQuest
+dissertation abstract data.
+
+-   ***stms\_estimate\_at\_K.R***: Runs Structural Topic Models at
+    specified range of K (50-1000 in the paper).
+-   ***concepts\_k500\_50.R***: Extracts concepts from the structural
+    topic model output, the number of words, topics, and FREX weighing
+    can be adjusted in the code to get at the differend K/FREX
+    scenarios.
+-   ***xxx***:
+
+Data
+----
+
+For the concepts extracted for the K = 500 Structural Topic Model where
+we equally balance frequency and exclusivity (which we do in
+**concepts\_k500\_50.R**), please see **k500\_wordcouds.zip** for
+visualizations or **frexconcepts\_k500\_50.rda** for the data (second
+element in the list).
 
 For raw data of ProQuest or the Web of Science:
 

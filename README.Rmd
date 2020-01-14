@@ -10,25 +10,31 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# Readme
+This repository contains code and data associated with "The Diversity-Innovation Paradox in Science." arXiv  preprint and PDF can be found [here](https://arxiv.org/abs/1909.02063).
 
-This repository contains code and data associated with "The Diversity-Innovation Paradox in Science." arXiv  preprint can be found [here](https://arxiv.org/abs/1909.02063).
+![picture](output/fig_1.pdf)
 
+## Code
 
+With the provided code provided the novelty, impactful novelty, and distal novelty metrics can be extracted from the raw ProQuest dissertation abstract data.
 
+- ***stms_estimate_at_K.R***: Runs Structural Topic Models at specified range of K (50-1000 in the paper).
+- ***concepts_k500_50.R***: Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
+- ***xxx***: 
+
+## Data
+
+For the concepts extracted for the K = 500 Structural Topic Model where we equally balance frequency and exclusivity (which we do in **concepts_k500_50.R**), please see **k500_wordcouds.zip** for visualizations or **frexconcepts_k500_50.rda** for the data (second element in the list).
 
 For raw data of ProQuest or the Web of Science:
-- ProQuest
-- Web of Science
+
+- [ProQuest](https://www.proquest.com/)
+- [Web of Science](https://www.proquest.com/)
 
 For inferring gender and race associated with names:
-- US Census Data
-- Social Security Administration Data
-- Florida Voter Registration Data
 
+- [US Census Data 2000](https://census.gov/topics/population/genealogy/data/2000_surnames.html)
+- [US Census Data 2010](https://census.gov/topics/population/genealogy/data/2010_surnames.html)
+- [Social Security Administration Data](https://www.ssa.gov/oact/babynames/limits.html)
+- [Florida Voter Registration Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UBIG3F)
 
-## Analyses Output
-
-
-![picture](output/fig_1.png)
-**Figure 1**. The introduction of innovations and their subsequent uptake.
