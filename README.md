@@ -41,15 +41,15 @@ For inferring gender and race associated with names:
     2010](https://census.gov/topics/population/genealogy/data/2010_surnames.html)
 -   [Social Security Administration
     Data](https://www.ssa.gov/oact/babynames/limits.html)
-    -   [Hofstra et
-        al. 2017](https://journals.sagepub.com/doi/full/10.1177/0003122417705656):
-        method described here to help gender and race (with US Censuses
+    -   [*Hofstra et
+        al. 2017*](https://journals.sagepub.com/doi/full/10.1177/0003122417705656):
+        method described here to help gender and race (with US Census
         and SSN).
 -   [Florida Voter Registration
     Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UBIG3F)
-    -   [ethnicolr](https://github.com/appeler/ethnicolr) by [Sood and
-        Laohaprapanon](https://arxiv.org/abs/1805.02109): method to
+    -   [*ethnicolr*](https://github.com/appeler/ethnicolr) by [*Sood
+        and Laohaprapanon*](https://arxiv.org/abs/1805.02109): method to
         further help infer race with the Florida Voter registration
         data.
--   [Genderize.io](https://genderize.io/) we use this method to further
-    help infer gender.
+-   [Genderize.io](https://genderize.io/) method to further help infer
+    gender.
