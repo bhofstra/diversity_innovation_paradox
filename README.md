@@ -16,7 +16,7 @@ to earn them academic positions. The discounting of minorities’
 innovations may partly explain their underrepresentation in influential
 positions of academia.
 
-<img src="fig_1.png" alt="picture" style="width:75.0%" /> ***Figure
+<img src="fig_1.png" alt="picture" style="width:60.0%" /> ***Figure
 1***. The introduction of innovations and their subsequent uptake.
 
 Code
