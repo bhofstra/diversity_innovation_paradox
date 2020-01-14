@@ -1,8 +1,11 @@
+The Diversity-Innovation Paradox in Science
+-------------------------------------------
+
 This repository contains code and data associated with “The
 Diversity-Innovation Paradox in Science.” arXiv preprint and PDF can be
 found [here](https://arxiv.org/abs/1909.02063).
 
-Paper content
+In a nutshell
 -------------
 
 By analyzing data from nearly all US PhD-recipients and their
@@ -13,14 +16,14 @@ to earn them academic positions. The discounting of minorities’
 innovations may partly explain their underrepresentation in influential
 positions of academia.
 
-![picture](fig_1.png) **Figure 1**. The introduction of innovations and
-their subsequent uptake.
+<img src="fig_1.png" alt="picture" style="width:75.0%" /> ***Figure
+1***. The introduction of innovations and their subsequent uptake.
 
 Code
 ----
 
-With the provided code provided the novelty, impactful novelty, and
-distal novelty metrics can be constructed from the ProQuest dissertation
+With the provided code the novelty, impactful novelty, and distal
+novelty metrics can be constructed from the ProQuest dissertation
 abstract data.
 
 -   ***stms\_estimate\_at\_K.R***: Runs Structural Topic Models at
