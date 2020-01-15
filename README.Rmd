@@ -28,7 +28,7 @@ With the provided code the novelty, impactful novelty, and distal novelty metric
 - ***stms_estimate_at_K.R***: Runs Structural Topic Models at specified range of K (50-1000 in the paper).
 - ***concepts_k500_50.R***: Extracts concepts from the structural topic model output, the number of words, topics, and FREX weighing can be adjusted in the code to get at the differend K/FREX scenarios.
 - ***novelty and impactful novelty***: 
-- ***embeddings***:
+- ***proquest-skipgrams.py***: Code to learn the concept embeddings to find out which are distal or proximal linkages.
 
 ## Data
 

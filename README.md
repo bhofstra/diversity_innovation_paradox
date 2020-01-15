@@ -33,7 +33,8 @@ abstract data.
     can be adjusted in the code to get at the differend K/FREX
     scenarios.
 -   ***novelty and impactful novelty***:
--   ***embeddings***:
+-   ***proquest-skipgrams.py***: Code to learn the concept embeddings to
+    find out which are distal or proximal linkages.
 
 Data
 ----
