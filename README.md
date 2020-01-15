@@ -5,6 +5,13 @@ This repository contains code and data associated with “The
 Diversity-Innovation Paradox in Science.” arXiv preprint and PDF can be
 found [here](https://arxiv.org/abs/1909.02063).
 
+If you use any of the code or ideas presented here, please cite our
+paper:
+
+-   Hofstra, Bas, Vivek V. Kulkarni, Sebastian Munoz-Najar Galvez, Bryan
+    He, Dan Jurafsky, & Daniel A. McFarland. (2020). The Diversity
+    Innovation Paradox in Science. *arXiv*, arXiv:1909.02063.
+
 In a nutshell
 -------------
 
